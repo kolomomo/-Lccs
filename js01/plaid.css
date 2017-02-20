@@ -1,0 +1,25 @@
+
+#mydiv div{
+    float: left;
+    background-color: orange;
+    padding: 15%;
+    border-radius: 0.4em;
+    margin: 2px;
+}
+#mydiv{
+    width: 30%;
+    height: 100%;
+}
+.buttn{
+    width: 93%;
+    height: 25px;
+    font: small-caps 15px/1.8em  "宋体",sans-serif;
+    text-align: center;
+    color: orange;
+    border: solid 1px orange;
+    border-radius: 0.2em;
+    margin-left: 1px;
+    margin-top: 5px;
+    cursor:pointer ;
+    float: left;
+}
