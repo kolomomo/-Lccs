@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!-- html基础
+==>html类型
+==>html标签
+http://www.w3school.com.cn/tags/index.asp
+==>ccs基础
+背景颜色
+图片背景
+文本
+列表项
+表项
+ccs BOX MODEL==> http://www.runoob.com/css/css-boxmodel.html
+-->
+<html>
+<head>
+  <style type="text/css">
+  body {color: red}
+  body {background-image: url(../img/bg1.jpg);
+        background-repeat:no-repeat;
+        background-position: 30% 20%;
+        background-attachment: fixed;
+      }
+
+  h1 {color: #00ff00;
+    text-transform: uppercase;}
+
+  h2 {background-color: transparent;
+      text-align: center;
+      text-decoration: overline;}
+  a  {text-decoration: line-through;}
+
+  p.e {background-color: pink;
+  text-indent: 2cm;
+  }
+
+  p {background-color: gray;
+  }
+
+  p.ex {color: rgb(255,255,255);
+  word-spacing: 30px;
+  font-family: Arial,Verdana,sans-serif;
+  border: medium double olive;
+  border-bottom: thick dotted ivory}
+
+  p.no2 {background-color: khaki;padding: 20px;
+  border-style: solid;
+  border-color: purple chocolate red blue}
+
+  span.highligt{
+    background-color: blue;
+    float:left;
+    width: 0.7em;
+    font-size: 400%;
+    line-height: 80%;
+  }
+
+  ul.square {list-style-type: square;}
+
+  caption
+  {
+  caption-side:bottom
+  }
+  table {
+    border-collapse: collapse;
+    border-spacing: 5px;
+    empty-cells: show;
+  }
+
+  </style>
+
+
+<title>网页制作web</title>
+</head>
+<body>
+<em><i>我的</i><br></em><font color=blue><b>网页blue web.</b></font>
+
+  <h1>这是 CSS heading1 uppercase</h1>
+  <h2>transparent heading 2 decoration</h2>
+
+  <p class="e">indent red text  </p>
+
+  <p class="ex">word spacing 255 olive+ivory</p>
+
+  <p class="no2">段内边距 卡其色背景 purple chocolate red blue</p>
+
+  <p><span class="highligt">H</span>background-attachment fixed，
+    才能保证该属性在 <br>Firefox 和 Opera 中正常工作
+  </p>
+
+  <p><a href="http://www.iwbo.me">iwbo链接</a></p>
+
+  <ul class="square">
+    <li>Oooh</li>
+    <li>remind me list-style-image</li>
+    <li>put us out of your feeling</li>
+  </ul>
+
+  <table border="1">
+    <caption>caption</caption>
+    <tr>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+  </table>
+
+</body>
+</html>
