@@ -1,4 +1,10 @@
-
+p{
+  font-family: "微软雅黑", sans-serif;
+  font-size: 1em;
+  line-height: 1.5em;
+  color: white;
+  text-align: left;
+}
 .bg{
   background: url("images/task3_30.png") repeat;
   width: 100%;
@@ -20,6 +26,7 @@ img{
   margin-top: 1em ;
   margin-bottom: 2em;
   width: 30%;
+
 }
 .con2{
   display: inline-block;
