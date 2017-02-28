@@ -1,0 +1,134 @@
+body {
+    min-width: 320px;
+    height: 100%;
+    font: 16px "微软雅黑",sans-serif;
+}
+img {
+    max-width: 100%;
+}
+ul,li {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+header,footer {
+    width: 100%;
+    height: 3em;
+    position:absolute;
+}
+/*header began*/
+header {
+    line-height: 3em;
+    background: #5fc0cd;
+    text-align: center;
+    top: 0;
+}
+header img{
+    float: left;
+    width: 0.8em;
+    height: 1.4em;
+    margin-top: 0.8em;
+    margin-left: 1em;
+}
+header div {
+    width: 1.8em;
+}
+header span {
+    font: 18px "微软雅黑",sans-serif;
+    color: white;
+}
+/*header end*/
+
+
+.wrap {
+    padding-top: 3em;
+    padding-bottom: 3em;
+}
+.main {
+    width: 100%;
+    height: 15em;
+    background-image: url("images/38a17cec12b0df5f8a4188382ba0e279e7c6e6def0df-X2hc7H.png");
+    background-size: 100% 100%;
+}
+
+
+.list, .form li {
+    position: relative;
+    width: 100%;
+    height: auto;
+    padding-left: 1em;
+    border-bottom: 1px solid #c0c0c0;
+    line-height: 4em;
+
+}
+.labor {
+    width: 5em;
+    padding: 0 2em;
+    border-right: 1px solid #c0c0c0;
+}
+.info {
+    margin-left: 1em;
+}
+.intro {
+    position: fixed;
+    display: inline-block;
+    line-height: 1em;
+    left: 10em;
+    padding: 0;
+}
+.list span {
+    font-size: 1em;
+    font-weight: bold;
+    padding-left: 1em;
+    border-left: 2px solid #5fc0cd ;
+    margin-left: 1em;
+}
+.tag {
+    background-image: url("images/star.png") ;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    padding: 0 2em;
+    line-height: 3em;
+    margin-left: 1em;
+}
+
+/*footer began*/
+footer {
+    bottom:0;
+}
+
+.mybtn1 {
+    float: left;
+    width: 46%;
+    height: 100%;
+    margin-left: 4%;
+
+}
+.mybtn2 {
+    float: right;
+    width: 46%;
+    height: 100%;
+    margin-left: 2%;
+}
+
+button {
+    width: 100%;
+    height: 80%;
+    outline: none;
+    border-style: none;
+    border-radius: 0.5em;
+}
+
+.mybtn2 button{
+    background-color: #5fc0cd;
+    color: white;
+}
+
+.mybtn1 button{
+    background-color: white;
+    border: 2px solid #5fc0cd;
+    color: #5fc0cd;
+}
+
+/*footer end*/
+
