@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3a4c73fe-ea9b-47f7-acf0-1e5159d59fc4" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css05/css05.css" afterPath="$PROJECT_DIR$/css05/css05.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css05/css05.html" afterPath="$PROJECT_DIR$/css05/css05.html" />
     </list>
     <ignored path="-Lccs.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -254,7 +252,13 @@
       <option name="project" value="LOCAL" />
       <updated>1488333124254</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="05">
+      <created>1488358060845</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1488358060845</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -313,7 +317,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="03....." />
     <MESSAGE value="04" />
-    <option name="LAST_COMMIT_MESSAGE" value="04" />
+    <MESSAGE value="05" />
+    <option name="LAST_COMMIT_MESSAGE" value="05" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
