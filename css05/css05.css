@@ -5,9 +5,10 @@
     box-sizing:border-box;
     -moz-box-sizing:border-box; /* Firefox */
     -webkit-box-sizing:border-box; /* Safari */
+    font: 16px/1.5em "黑体", sans-serif;
 }
 .contain  {
-    flex: 1;
+    margin-bottom: 4em;
 }
 img {
     max-width: 100%;
@@ -21,19 +22,19 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 6vh;
+    height: 3em;
     background: #5fc0cd;
 }
 header img,
 header div {
-    width: 2.5vh;
-    margin: 2vh;
+    width: 1em;
+    margin: 1em;
 }
 header span {
     color: white;
 }
 
-footer{
+footer {
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -42,7 +43,7 @@ footer{
     bottom: 0;
 }
 
-footer button{
+footer button {
     outline: none;
     border-style: none;
     border-radius: 0.5em;
@@ -69,7 +70,7 @@ footer button{
     background-image: url("images/38a17cec12b0df5f8a4188382ba0e279e7c6e6def0df-X2hc7H.png");
     background-size: cover;
 }
-.wrap_content{
+.wrap_content {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -77,7 +78,7 @@ footer button{
     margin-left: 5vw;
 }
 
-.head_img{
+.head_img {
     width: 15vh;
     height: 15vh;
 }
@@ -92,9 +93,10 @@ footer button{
 .message span {
     padding-top: 3vh;
     color: #eff0f4;
+    font-size: 20px;
 }
 .message p {
-    padding-left: 16px;
+    padding-left: 2em;
     background-image: url("images/shape.png");
     background-repeat: no-repeat;
     background-size: auto 100%;
@@ -116,14 +118,11 @@ footer button{
     border-left: 2px solid #5fc0cd ;
 }
 .tag {
-    padding-left: 22px;
+    padding-left: 2em;
     margin-left: 1em;
     background-image: url("images/star.png") ;
     background-repeat: no-repeat;
     background-size: auto 100%;
-}
-.form-list {
-
 }
 .list-col {
     box-sizing:border-box;
@@ -143,6 +142,7 @@ footer button{
 .info {
     margin-left: 1em;
 }
+
 
 
 
