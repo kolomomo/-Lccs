@@ -3,34 +3,311 @@
 <head>
     <meta charset="UTF-8" name="viewport" content="initial-scale=1, maximum-scale=1">
     <title>css06</title>
-    <link href="../normalize.css" type="text/css" rel="stylesheet">
+    <script src="./bootstrap/js/jquery/2.0.0/jquery.min.js"></script>
+    <link href="./bootstrap/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+    <script src="./bootstrap/js/bootstrap/3.3.6/bootstrap.min.js"></script>
     <link href="./css06.css" type="text/css" rel="stylesheet">
 </head>
 <body class="web">
     <header>
         <div class="button_h">
             <div>
-                <div>
-                    <span id="button_1">找雇主</span>
-                </div>
-
-                <div class="button_l">
-                    <span id="button_2">找护工</span>
-                </div>
-
+                <button class="btn" id="button_1">找雇主</button>
+                <button class="btn" id="button_2">找护工</button>
             </div>
         </div>
         <img src="images/add2.png">
     </header>
+        <div class="dropdown">
+            <button type="button" class="btn dropdown-toggle" id="dropdownMenu1" data-toggle="dropdown">
+                所在地
+                &nbsp;&nbsp;
+                <span class="caret"></span>
+            </button>
+            <button type="button" class="btn dropdown-toggle" id="dropdownMenu2" data-toggle="dropdown">
+                食宿
+                &nbsp;&nbsp;
+                <span class="caret"></span>
+            </button>
+            <button type="button" class="btn dropdown-toggle" id="dropdownMenu3" data-toggle="dropdown">
+                病人情况
+                &nbsp;&nbsp;
+                <span class="caret"></span>
+            </button>
+
+                <ul class="dropdown-menu"  role="menu" aria-labelledby="dropdownMenu1">
+                    <li>
+                        <a href="#">A</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#">B</a>
+                    </li>
+
+                    <li role="presentation">
+                        <a href="#">C</a>
+                    </li>
+                    <li role="presentation">
+                        <a href="#">D</a>
+                    </li>
+                </ul>
+
+        </div>
     <main class="contain">
-        <div class="list_head">
-            <span>所在地</span>
-            <span>食宿</span>
-            <span>病人情况</span>
+        <div class="container">
+            <ul class="list-group">
+                <li class="list-group-item">
+                            <div class="row mycol">
+                                <div class="sprite_img calendar2"></div>
+                                <span class="sty1">服务日期</span>
+                            </div>
+                            <div class="row mycol">
+                                <div class="col-xs-9 mycol">
+                                    <span class="mydata">2017-1-1 至 2018-1-1</span>
+                                </div>
+                                <div class="col-xs-3 mycol">
+                                    <span class="sty2">25元/小时</span>
+                                    <img src="images/img3.png">
+                                </div>
+                            </div>
+                            <div class="row mycol">
+                                <div class="sprite_img shape4"></div>
+                                <span class="sty1">北京·通州·果园</span>
+                            </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row mycol">
+                        <div class="sprite_img calendar2"></div>
+                        <span class="sty1">服务日期</span>
+                    </div>
+                    <div class="row mycol">
+                        <div class="col-xs-9 mycol">
+                            <span class="mydata">2017-1-1 至 2018-1-1</span>
+                        </div>
+                        <div class="col-xs-3 mycol">
+                            <span class="sty2">25元/小时</span>
+                            <img src="images/img3.png">
+                        </div>
+                    </div>
+                    <div class="row mycol">
+                        <div class="sprite_img shape4"></div>
+                        <span class="sty1">北京·通州·果园</span>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row mycol">
+                        <div class="sprite_img calendar2"></div>
+                        <span class="sty1">服务日期</span>
+                    </div>
+                    <div class="row mycol">
+                        <div class="col-xs-9 mycol">
+                            <span class="mydata">2017-1-1 至 2018-1-1</span>
+                        </div>
+                        <div class="col-xs-3 mycol">
+                            <span class="sty2">25元/小时</span>
+                            <img src="images/img3.png">
+                        </div>
+                    </div>
+                    <div class="row mycol">
+                        <div class="sprite_img shape4"></div>
+                        <span class="sty1">北京·通州·果园</span>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row mycol">
+                        <div class="sprite_img calendar2"></div>
+                        <span class="sty1">服务日期</span>
+                    </div>
+                    <div class="row mycol">
+                        <div class="col-xs-9 mycol">
+                            <span class="mydata">2017-1-1 至 2018-1-1</span>
+                        </div>
+                        <div class="col-xs-3 mycol">
+                            <span class="sty2">25元/小时</span>
+                            <img src="images/img3.png">
+                        </div>
+                    </div>
+                    <div class="row mycol">
+                        <div class="sprite_img shape4"></div>
+                        <span class="sty1">北京·通州·果园</span>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row mycol">
+                        <div class="sprite_img calendar2"></div>
+                        <span class="sty1">服务日期</span>
+                    </div>
+                    <div class="row mycol">
+                        <div class="col-xs-9 mycol">
+                            <span class="mydata">2017-1-1 至 2018-1-1</span>
+                        </div>
+                        <div class="col-xs-3 mycol">
+                            <span class="sty2">25元/小时</span>
+                            <img src="images/img3.png">
+                        </div>
+                    </div>
+                    <div class="row mycol">
+                        <div class="sprite_img shape4"></div>
+                        <span class="sty1">北京·通州·果园</span>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row mycol">
+                        <div class="sprite_img calendar2"></div>
+                        <span class="sty1">服务日期</span>
+                    </div>
+                    <div class="row mycol">
+                        <div class="col-xs-9 mycol">
+                            <span class="mydata">2017-1-1 至 2018-1-1</span>
+                        </div>
+                        <div class="col-xs-3 mycol">
+                            <span class="sty2">25元/小时</span>
+                            <img src="images/img3.png">
+                        </div>
+                    </div>
+                    <div class="row mycol">
+                        <div class="sprite_img shape4"></div>
+                        <span class="sty1">北京·通州·果园</span>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row mycol">
+                        <div class="sprite_img calendar2"></div>
+                        <span class="sty1">服务日期</span>
+                    </div>
+                    <div class="row mycol">
+                        <div class="col-xs-9 mycol">
+                            <span class="mydata">2017-1-1 至 2018-1-1</span>
+                        </div>
+                        <div class="col-xs-3 mycol">
+                            <span class="sty2">25元/小时</span>
+                            <img src="images/img3.png">
+                        </div>
+                    </div>
+                    <div class="row mycol">
+                        <div class="sprite_img shape4"></div>
+                        <span class="sty1">北京·通州·果园</span>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row mycol">
+                        <div class="sprite_img calendar2"></div>
+                        <span class="sty1">服务日期</span>
+                    </div>
+                    <div class="row mycol">
+                        <div class="col-xs-9 mycol">
+                            <span class="mydata">2017-1-1 至 2018-1-1</span>
+                        </div>
+                        <div class="col-xs-3 mycol">
+                            <span class="sty2">25元/小时</span>
+                            <img src="images/img3.png">
+                        </div>
+                    </div>
+                    <div class="row mycol">
+                        <div class="sprite_img shape4"></div>
+                        <span class="sty1">北京·通州·果园</span>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row mycol">
+                        <div class="sprite_img calendar2"></div>
+                        <span class="sty1">服务日期</span>
+                    </div>
+                    <div class="row mycol">
+                        <div class="col-xs-9 mycol">
+                            <span class="mydata">2017-1-1 至 2018-1-1</span>
+                        </div>
+                        <div class="col-xs-3 mycol">
+                            <span class="sty2">25元/小时</span>
+                            <img src="images/img3.png">
+                        </div>
+                    </div>
+                    <div class="row mycol">
+                        <div class="sprite_img shape4"></div>
+                        <span class="sty1">北京·通州·果园</span>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row mycol">
+                        <div class="sprite_img calendar2"></div>
+                        <span class="sty1">服务日期</span>
+                    </div>
+                    <div class="row mycol">
+                        <div class="col-xs-9 mycol">
+                            <span class="mydata">2017-1-1 至 2018-1-1</span>
+                        </div>
+                        <div class="col-xs-3 mycol">
+                            <span class="sty2">25元/小时</span>
+                            <img src="images/img3.png">
+                        </div>
+                    </div>
+                    <div class="row mycol">
+                        <div class="sprite_img shape4"></div>
+                        <span class="sty1">北京·通州·果园</span>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row mycol">
+                        <div class="sprite_img calendar2"></div>
+                        <span class="sty1">服务日期</span>
+                    </div>
+                    <div class="row mycol">
+                        <div class="col-xs-9 mycol">
+                            <span class="mydata">2017-1-1 至 2018-1-1</span>
+                        </div>
+                        <div class="col-xs-3 mycol">
+                            <span class="sty2">25元/小时</span>
+                            <img src="images/img3.png">
+                        </div>
+                    </div>
+                    <div class="row mycol">
+                        <div class="sprite_img shape4"></div>
+                        <span class="sty1">北京·通州·果园</span>
+                    </div>
+                </li>
+                <li class="list-group-item">
+                    <div class="row mycol">
+                        <div class="sprite_img calendar2"></div>
+                        <span class="sty1">服务日期</span>
+                    </div>
+                    <div class="row mycol">
+                        <div class="col-xs-9 mycol">
+                            <span class="mydata">2017-1-1 至 2018-1-1</span>
+                        </div>
+                        <div class="col-xs-3 mycol">
+                            <span class="sty2">25元/小时</span>
+                            <img src="images/img3.png">
+                        </div>
+                    </div>
+                    <div class="row mycol">
+                        <div class="sprite_img shape4"></div>
+                        <span class="sty1">北京·通州·果园</span>
+                    </div>
+                </li>
+
+
+
+
+            </ul>
         </div>
 
     </main>
     <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-4 " ><img src="images/home.png"><span>首页</span></div>
+                <div class="col-xs-4 " ><img src="images/task6.png" id="mbtn"></div>
+                <div class="col-xs-4 " ><img src="images/man.png"><span style="color: #c0c0c0">我的</span></div>
+            </div>
+        </div>
+       <!-- <div>
+            <img src="images/home.png">
+        </div>
+        <div>
+            <img src="images/task6.png">
+        </div>
+        <div>
+            <img src="images/man.png">
+        </div>-->
 
     </footer>
 </body>
