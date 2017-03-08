@@ -29,11 +29,12 @@ header, footer, .web, .container-nav {
     border-right: 1px solid #c0c0c0;
 }
 .mynav a {
-    color: #c0c0c0;
+    color: rgb(153,153,153);
     text-decoration: none;
 }
-.dropdown-menu {
-    width: 33.3%;
+.dropdown .dropdown-menu {
+    width: 100%;
+    min-width: 100px;
 }
 .container-nav {
     position: fixed;
@@ -66,7 +67,6 @@ header img {
     height: 2em;
     margin-right: 1em;
 }
-
 .button_h {
     display: flex;
     width: 100vw;
@@ -89,6 +89,7 @@ header img {
     width: 50%;
     background: #55a8b3;
     color: white;
+    outline: none;
 }
 #button_2 {
     font-size: 20px;
@@ -97,6 +98,7 @@ header img {
     border-radius: 0.5em;
     color: #55a8b3;
     background: white;
+    outline: medium;
 }
 
 .contain {
@@ -133,7 +135,7 @@ header img {
     padding-left: 1.5em;
 }
 .sty1 {
-    color: #c0c0c0;
+    color: rgb(153,153,153);
     padding-left: 1em;
 }
 .sty2 {
