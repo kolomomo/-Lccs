@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:https="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8" name="viewport" content="initial-scale=1, maximum-scale=1">
+    <title>css07</title>
+    <script src="../bootstrap/js/jquery/2.0.0/jquery.min.js"></script>
+    <link href="../bootstrap/css/bootstrap/3.3.6/bootstrap.min.css" rel="stylesheet">
+    <script src="../bootstrap/js/bootstrap/3.3.6/bootstrap.min.js"></script>
+    <link href="css07_2.css" type="text/css" rel="stylesheet">
+    <script src="./css07.js"></script>
+
+</head>
+<body>
+<div class="header">
+    <div class="votemenu"><img src="images/votemenu.png"></div>
+    <span class="voteheader">投票</span>
+    <div class="voteback"><a href="css07_1.html"><img src="images/voteover.png"></a></div>
+    
+</div>
+<div class="content">
+    <div class="content_head">
+        <div class="votespeech">
+            <span>发言讨论结束，大家请投票</span>
+            <div>
+                <img src="images/voteplayer.png" onclick="player()">
+                <audio src="http://7xsg2l.com1.z0.glb.clouddn.com/mp3MC%E5%A4%A9%E4%BD%91-%E4%B8%80%E4%BA%BA%E6%88%91%E9%A5%AE%E9%85%92%E9%86%89.mp3" controls="controls" preload="metadata" id="music" hidden>
+                    您的浏览器不支持 audio 标签。
+                </audio>
+            </div>
+        </div>
+        <span class="votenote">点击得票数最多人的头像</span>
+    </div>
+
+
+    <div class="votemain">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="dropdown voteman">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"
+                           data-hover="dropdown">
+                            <div>
+                                <span class="name">水民</span>
+                                <span class="number">1号</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="cell">
+                                <div>
+                                    <img src="images/vote1.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote2.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote3.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="dropdown voteman">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            <div>
+                                <span class="name">水民</span>
+                                <span class="number">2号</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="cell">
+                                <div>
+                                    <img src="images/vote1.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote2.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote3.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="dropdown voteman">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            <div>
+                                <span class="name">警察</span>
+                                <span class="number">3号</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="cell">
+                                <div>
+                                    <img src="images/vote1.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote2.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote3.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="dropdown voteman">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            <div>
+                                <span class="name">法官</span>
+                                <span class="number">4号</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="cell">
+                                <div>
+                                    <img src="images/vote1.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote2.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote3.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="dropdown voteman">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            <div>
+                                <span class="name">狙击手</span>
+                                <span class="number">5号</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="cell">
+                                <div>
+                                    <img src="images/vote1.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote2.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote3.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="dropdown voteman">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            <div>
+                                <span class="name">医生</span>
+                                <span class="number">6号</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="cell">
+                                <div>
+                                    <img src="images/vote1.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote2.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote3.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="dropdown voteman">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            <div>
+                                <span class="name">杀手</span>
+                                <span class="number">7号</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="cell">
+                                <div>
+                                    <img src="images/vote1.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote2.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote3.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="dropdown voteman">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            <div>
+                                <span class="name">水民</span>
+                                <span class="number">8号</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="cell">
+                                <div>
+                                    <img src="images/vote1.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote2.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote3.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="dropdown voteman">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            <div>
+                                <span class="name">水民</span>
+                                <span class="number">9号</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="cell">
+                                <div>
+                                    <img src="images/vote1.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote2.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote3.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="dropdown voteman">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            <div>
+                                <span class="name">杀手</span>
+                                <span class="number">10号</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="cell">
+                                <div>
+                                    <img src="images/vote1.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote2.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote3.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="dropdown voteman">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            <div>
+                                <span class="name">水民</span>
+                                <span class="number">11号</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="cell">
+                                <div>
+                                    <img src="images/vote1.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote2.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote3.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="dropdown voteman">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            <div>
+                                <span class="name">水民</span>
+                                <span class="number">12号</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="cell">
+                                <div>
+                                    <img src="images/vote1.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote2.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote3.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xs-4">
+                    <div class="dropdown voteman">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            <div>
+                                <span class="name">杀手</span>
+                                <span class="number">13号</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="cell">
+                                <div>
+                                    <img src="images/vote1.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote2.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote3.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="dropdown voteman">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            <div>
+                                <span class="name">水民</span>
+                                <span class="number">14号</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="cell">
+                                <div>
+                                    <img src="images/vote1.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote2.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote3.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xs-4">
+                    <div class="dropdown voteman">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-hover="dropdown">
+                            <div>
+                                <span class="name">水民</span>
+                                <span class="number">15号</span>
+                            </div>
+                        </a>
+                        <div class="dropdown-menu">
+                            <div class="cell">
+                                <div>
+                                    <img src="images/vote1.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote2.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote3.png">
+                                </div>
+                                <div>
+                                    <img src="images/vote4.png">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+<div class="footer">
+    <button type="button" class="votebtn" onClick="vote()">投票</button>
+</div>
+<script src="./bootstrap-hover-dropdown.js"></script>
+</body>
+
+</html>

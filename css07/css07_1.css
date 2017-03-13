@@ -1,0 +1,92 @@
+body,
+header {
+    min-width: 320px;
+    max-width: 720px;
+    margin: 0 auto;
+    font: 16px "黑体", sans-serif;
+}
+.container-fluid {
+    padding: 0;
+}
+img {
+    max-width: 100%;
+
+}
+.header {
+    width: 100%;
+    height: 5rem;
+    line-height: 5rem;
+    background-color: #29bde0;
+}
+.header img {
+    width: 2rem;
+    margin-left: 2rem;
+}
+.con {
+    overflow: hidden;
+    width: 80%;
+    margin-top: 2rem;
+    border: 1px solid gainsboro;
+    text-align: center;
+}
+.conh {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.con img {
+    height: 2rem;
+    margin: 2rem 0;
+}
+.con .con1 {
+    overflow: hidden;
+    color: #fbb435;
+    border-bottom: 1px solid #fbb435;
+    padding: 1rem 0;
+}
+
+.conh {
+    padding: 2rem;
+    font-size: 2rem;
+    color: #9a9a9a;
+}
+.conlist {
+    width: 100%;
+    margin: 0.5rem 0;
+}
+.con2 {
+    overflow: hidden;
+    background-color: #69d1e9;
+    padding: 2rem 0;
+    margin: 1rem 0;
+}
+.con2:hover {
+    text-decoration: none;
+}
+.con2 span {
+    color: white;
+}
+.con3 {
+    color: #0f0f0f;
+    font-size: 1rem;
+}
+.conlist .col-xs-1,
+.conlist .col-xs-10{
+    padding: 0;
+    height: 100%;
+}
+.conlist .col-xs-1 {
+    margin-top: 10rem;
+}
+
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #69d1e9;
+    /* 宽度和高度需要相等 */
+}
+.circle_gray {
+    background: #f0f0f0;
+}
