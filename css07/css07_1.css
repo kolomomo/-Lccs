@@ -1,3 +1,4 @@
+
 body,
 header {
     min-width: 320px;
@@ -7,6 +8,8 @@ header {
 }
 .container-fluid {
     padding: 0;
+    background: #f0f0f0;
+    height: 100vh;
 }
 img {
     max-width: 100%;
@@ -22,12 +25,16 @@ img {
     width: 2rem;
     margin-left: 2rem;
 }
+.footer {
+
+}
 .con {
     overflow: hidden;
     width: 80%;
     margin-top: 2rem;
     border: 1px solid gainsboro;
     text-align: center;
+    background: white;
 }
 .conh {
     text-overflow: ellipsis;
@@ -60,7 +67,7 @@ img {
     padding: 2rem 0;
     margin: 1rem 0;
 }
-.con2:hover {
+a:link {
     text-decoration: none;
 }
 .con2 span {
@@ -89,4 +96,7 @@ img {
 }
 .circle_gray {
     background: #f0f0f0;
+}
+a.circle:hover {
+    background: #69d1e9;
 }

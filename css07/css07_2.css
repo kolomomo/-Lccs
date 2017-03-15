@@ -1,3 +1,9 @@
+.ho{background:url(./images/ho.png)  no-repeat;}
+.vote3{background-position:-62px 0;}
+.vote4{height:30px;width:30px;background-position:-91px 0;}
+.vote1{height:30px;width:30px;background-position:0 0;}
+.vote2{height:30px;width:30px;background-position:-31px 0;}
+
 body,
 .header,
 .footer {
@@ -15,12 +21,13 @@ img {
     max-width: 100%;
 }
 .header {
-    position: relative;
+    position: fixed;
     width: 100%;
     padding: 1rem 0;
     line-height: 3rem;
     top: 0;
     text-align: center;
+    z-index: 1;
 }
 .header div{
     display: inline-block;
@@ -31,6 +38,9 @@ img {
 .header span {
     font-size: 2.5rem;
     color: white;
+}
+.content {
+    padding-top: 70px;
 }
 .votemenu {
     float: left;
@@ -48,7 +58,7 @@ img {
 
 }
 .votespeech span {
-    padding: 0 1rem;
+    padding-left: 3rem;
 
 }
 .votespeech div {
@@ -69,14 +79,16 @@ img {
     padding-right: 2rem;
     padding-bottom: 10rem;
 }
-.col-xs-4 {
-    padding: 0 4rem;
-}
+
 .row {
     padding: 1rem 0;
 }
+.col-xs-4 {
+    height: 20vh;
+    padding: 0 3vw;
+}
 .voteman a div{
-    border: 2px solid white;
+    border: 4px solid white;
     overflow: hidden;
 }
 .voteman a {
@@ -113,7 +125,7 @@ img {
     flex-direction: row;
     justify-content: center;
 }
-.cell div {
+.cell  div{
     width: 25%;
     display: block;
     padding: 0 1px;
@@ -138,19 +150,29 @@ img {
 }
 /*3*/
 .overimg {
-    padding: 1rem 6rem;
+    display: block;
+    width: 100%;
+    height:225px ;
+    padding: 1rem 0;
     text-align: center;
+    background: url("images/success2.png") no-repeat center;
+}
+.overimg h1{
+    padding-top: 115px;
+    color: white;
+    font-size: 48px;
 }
 .overcon {
-    padding: 1rem 4rem;
-    line-height: 2rem;
+    padding: 1rem 70px;
 }
 .p1 {
-    font-size: 2rem;
+    font-size: 26px;
+    line-height: 30px;
     color: #d7c58a;
 }
 .p2 {
-    padding-top: 2rem;
+    padding-top: 26px;
+    line-height: 20px;
     color: white;
 }
 .result_list {
@@ -175,11 +197,14 @@ img {
     margin: 0;
     color: #a6a6a6;
 }
+.line p {
+    font-size: 16px;
+}
 .date {
-    font-size: 2rem;
+    font-size: 20px;
 }
 .time {
-    font-size: 0.5rem;
+    font-size: 10px;
     color: #c7c7c7;
 }
 .footer_end {

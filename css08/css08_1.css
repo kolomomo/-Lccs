@@ -1,0 +1,201 @@
+body {
+     width: 100%;
+     height: 100vh;
+    font: 16px "微软雅黑", sans-serif;
+ }
+img {
+    max-width: 100%;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px 15vw;
+    color: #29b078;
+    font-size: 0.5rem;
+}
+.content{
+    padding: 3rem 15vw;
+    background: #fafafa;
+}
+.center {
+    text-align: center;
+    padding: 2rem 0;
+}
+.h4lead {
+    padding: 2rem 0;
+}
+
+.header-nav {
+    background: #26a26f;
+}
+.navbar {
+    padding: 0 15vw;
+    margin-bottom: 0;
+}
+nav ul,li {
+    color: white;
+    text-decoration: none;
+}
+.mynav{
+
+}
+.mynav a {
+    display: block;
+    text-decoration: none;
+    color: white;
+    padding: 2rem 1rem;
+}
+.mynav a:hover {
+    border-bottom: 3px solid #ffffff;
+}
+/*nav*/
+.content-header {
+    padding: 3rem 0;
+}
+.content-head {
+
+}
+.content-head div {
+    display: flex;
+    justify-content: center;
+    height: 60px;
+}
+.content-head-end {
+    padding: 3rem 0 3rem 5rem;
+    border-left: 2px dashed #dedede;
+}
+
+.content-head p,
+.content-head-end p {
+    font-size: 1rem;
+    color: #999;
+    text-align: center;
+}
+
+.content-head-end span {
+    padding-left: 2rem;
+    background: url("images/manicon.png") no-repeat left;
+    color: #26a26f;
+}
+
+/*how-to-study*/
+.study-cell {
+    display: flex;
+    flex-direction: row;
+    padding: 2rem 0;
+}
+.cell-con ,
+.cell-con-end {
+    display: flex;
+    font-size: 1rem;
+    color: #999;
+    align-items: center;
+}
+.cell-con p {
+    padding-left: 1rem;
+    padding-right: 4rem;
+    background: url("images/index_20.jpg") right no-repeat;
+}
+.cell-con-end p {
+    padding-left: 1rem;
+
+}
+.cell-num {
+    display: flex;
+    color: #26a26f;
+    height: 74px;
+    background-image: url("images/circle.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    justify-content: center;
+    align-items: center;
+}
+.cell-num span {
+    padding: 0 2.5rem;
+}
+
+/*oOutstanding students*/
+.students {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    padding: 1rem 3rem;
+}
+.students div {
+    padding: 0 3rem;
+    text-align: center;
+}
+.students p {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    color: #999999;
+}
+.circle {
+    display: inline-block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background: #69d1e9;
+    /* 宽度和高度需要相等 */
+}
+.circle_gray {
+    background: #f0f0f0;
+}
+
+/*company*/
+.company {
+    display: flex;
+    width: 100%;
+    height: 10rem;
+    align-items: center;
+    justify-content: center;
+    background: white;
+}
+/*link*/
+.h4lead3 {
+    text-align: center;
+    padding: 1rem 0;
+}
+.link {
+    background: white;
+}
+ul.list-inline {
+    text-align: center;
+}
+.list-inline li {
+    padding: 0 2rem;
+}
+.list-inline a{
+    font-size: 1rem;
+    color: #999;
+}
+
+
+footer {
+    color: #ffffff;
+    background: #26a26f;
+    padding: 20px 0;
+}
+footer a {
+    color: #ffffff;
+}
+footer p {
+    font: 13px "微软雅黑", sans-serif;
+}
+.lead {
+    font: 16px "微软雅黑", sans-serif;
+}
+.copyright {
+    background: #26a26f;
+    color: #ffffff;
+    border-top: 0.1rem solid #32c086;
+    line-height: 2rem;
+    text-align: center;
+    font: 8px "微软雅黑", sans-serif;
+}
+.lead {
+
+}
