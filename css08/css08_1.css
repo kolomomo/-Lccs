@@ -38,7 +38,7 @@ nav ul,li {
     text-decoration: none;
 }
 .mynav{
-
+    margin: 0 2rem;
 }
 .mynav a {
     display: block;
@@ -70,7 +70,6 @@ nav ul,li {
 .content-head-end p {
     font-size: 1rem;
     color: #999;
-    text-align: center;
 }
 
 .content-head-end span {
@@ -143,6 +142,9 @@ nav ul,li {
 }
 .circle_gray {
     background: #f0f0f0;
+}
+a.circle:hover {
+    background: #69d1e9;
 }
 
 /*company*/
