@@ -1,0 +1,48 @@
+.cor_nav {
+    border-bottom: solid 2px #d0d6d9;
+}
+a {
+    list-style: none;
+}
+.direction {
+    font: 16px "微软雅黑", sans-serif;
+    font-weight: bold;
+    padding-bottom: 10px;
+    border-bottom: solid 1px #d0d6d9;
+}
+.direction a {
+    margin-left: 25px;
+    padding: 2px;
+}
+.direction span {
+    color: #d0d6d9;
+}
+.direction a:hover {
+
+    background: #29b078;
+    color: white;
+    text-decoration: none;
+}
+.guid_head {
+    padding-top: 22px;
+}
+.container {
+    margin: 0;
+    padding: 0;
+}
+.card {
+    background: gold;
+    padding: 50px 25px;
+}
+.card_left {
+    padding-left: 0;
+}
+.card div {
+    border: solid #d0d6d9 1px;
+}
+.p1,
+.p2,
+.p3 {
+    display: inline;
+}
+

@@ -1,0 +1,77 @@
+
+.content {
+    background: #fafafa;
+}
+.corporate {
+    float: left;
+    width: 30%;
+    border: 2px solid #e6e6e6;
+    text-align: center;
+    background: #fff;
+}
+.con {
+    margin-left: 33%;
+    background: #fff;
+    border: 2px solid #e6e6e6;
+
+}
+.cor_nav {
+    padding-bottom: 36px;
+    font: 16px "微软雅黑", sans-serif;
+    font-weight: bold;
+}
+
+.cor_head {
+    width: 100%;
+    padding: 1rem 0 ;
+    background: #fff;
+    border-bottom: 2px solid #e6e6e6;
+}
+.cor_head p {
+    font-weight: bold;
+    font-size: 17px;
+    margin: 0;
+}
+.circle_list {
+    display: inline-block;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    border: 1px solid;
+    border-color: #ff650e;
+}
+
+.cor_list ul {
+    display: inline-block;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 40px;
+}
+.cor_list li {
+    margin-top: 40px;
+    text-align: left;
+}
+
+.con_head {
+    overflow: hidden;
+    border-bottom: 2px solid #e6e6e6;
+}
+
+.con_icon {
+    float: left;
+    padding: 0 3rem;
+}
+.con_head p {
+    font: 14px/28px "微软雅黑", sans-serif ;
+    padding: 1rem 60px 1rem 0;
+    color: #999999;
+}
+.con_contain {
+    padding: 40px 60px;
+}
+.con_contain p {
+    font: 14px/28px "微软雅黑", sans-serif ;
+    color: #999999;
+    padding-bottom: 20px;
+}
